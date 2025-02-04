@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -14,7 +15,7 @@ export function Hero() {
       <div className="absolute inset-0 flex flex-col justify-center px-8 text-white max-w-7xl mx-auto ">
         <h1 className="text-4xl lg:text-5xl font-medium mb-2 drop-shadow-md">IT Consulting Services</h1>
         <p className="text-lg lg:text-xl mb-8 font-normal">Together we can evaluate, secure and transform your business</p>
-        <Button className="w-fit text-lg px-8 py-6 bg-orange-500 hover:bg-orange-600">TALK TO AN EXPERT →</Button>
+        <Link href="#contact"><Button className="w-fit text-lg px-8 py-6 bg-orange-500 hover:bg-orange-600">TALK TO AN EXPERT →</Button></Link>
       </div>
     </section>
   )

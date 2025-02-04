@@ -29,7 +29,7 @@ export function Footer() {
         </div>
         <div>
           <h3 className="font-semibold text-base text-gray-200 mb-4">CONTACT US</h3>
-          <p className="space-y-2 text-white font-light text-sm inline-flex "><MailIcon className="mr-2 w-[17px] h-[17px] m-auto" />support@ennotechsolutions.in</p>
+          <p className="space-y-2 text-white font-light text-sm inline-flex "><MailIcon className=" text-yellow mr-2 w-[17px] h-[17px] m-auto" />support@ennotechsolutions.in</p>
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-10">
